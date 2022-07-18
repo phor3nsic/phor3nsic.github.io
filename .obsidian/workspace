@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "preview",
+            "file": "about/README.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "about/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "about/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "about/README.md"
               }
             }
           }
@@ -128,8 +128,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cfb03a2225574a3e",
+  "active": "a999e5f2474a06de",
   "lastOpenFiles": [
+    "images/profile.jpeg",
     "about/README.md",
     "README.md"
   ]

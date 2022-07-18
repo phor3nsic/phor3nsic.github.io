@@ -1,5 +1,4 @@
-![[profile.jpeg]]
-
+<img src="../images/profile.jpeg" width=60px height=60px>
 ## Whoami
 
 > For years testing WEB applications, source code, analysis of results, forwarding of reports and monitoring of improvements.
