@@ -1,6 +1,6 @@
-## Whoami
+# <p align="center" width="100px" heigth="100px">![](../images/profile.jpeg)</p>
 
-<p align="center" width="100px" heigth="100px">![](images/profile.jpeg)</p>
+## Whoami
 
 > For years testing WEB applications, source code, analysis of results, forwarding of reports and monitoring of improvements.
 Contributing to the creation of safe development policies, procedures and processes.
