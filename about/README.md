@@ -1,4 +1,4 @@
-# <p align="center" width="100px" heigth="100px">![](../images/profile.jpeg)</p>
+![[profile.jpeg]]
 
 ## Whoami
 
