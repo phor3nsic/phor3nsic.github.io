@@ -1,5 +1,8 @@
 ## Welcome to my blog!
 
+## About:
+- [About](https://phor3nsic.github.io/about/)
+
 ### Last Posts:
 
 - [Another vision for SSRF](https://gccybermonks.com/posts/ssrfvision/)
