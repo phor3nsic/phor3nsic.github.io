@@ -1,6 +1,7 @@
 ## Whoami
 <img src="../images/profile.jpeg" width=100px height=100px align="center">
 <br>
+
 - Technology enthusiast with a keen eye for details, I always enjoy delving into the finer aspects and understanding the reasons behind them.
 
 - I have discovered security vulnerabilities in major companies such as Comcast, Xfinity, Sophos, Stripe, Playstation, EpicGames, Vimeo, among others.
