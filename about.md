@@ -6,6 +6,8 @@ permalink: /about/
 
 # About Me
 
+<img src="/assets/images/profile.jpeg" alt="Profile Picture" style="float: right; border-radius: 50%; width: 200px; height: 200px; margin-left: 20px;">
+
 ## Passion for Technology
 
 Technology enthusiast with a keen eye for details, I always enjoy delving into the finer aspects and understanding the reasons behind them.
