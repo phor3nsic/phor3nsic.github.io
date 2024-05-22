@@ -1,3 +1,12 @@
-remote_theme: pages-themes/cayman@v0.2.0
+title: "My Blog"
+description: "Compilation of my cybersecurity research and findings."
+theme: jekyll-theme-cayman
+
+markdown: kramdown
+
+author:
+  name: "Walleson Rodrigues"
+  email: "phorensic@pm.me"
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-feed
