@@ -1,8 +1,12 @@
 ---
 layout: default
-title: "Hi!"
+title: "Home"
 ---
 
-# Welcome to my blog
+# Welcome to My Cybersecurity Blog
 
-This is my space to share research and discoveries in the area of ​​cybersecurity.
+This is my space to share research and discoveries in the field of cybersecurity.
+
+[Learn more about me](about/)
+
+[Check out my research](research/)
