@@ -1,7 +1,12 @@
-title: "My Blog"
+title: "Phor3nsic Security Research"
 description: "Compilation of my cybersecurity research and findings."
-theme: jekyll-theme-cayman
+baseurl: ""
+url: https://phor3nsic.github.io
+domain: phor3nsic.github.io
+twitter_username: ph0r3nisc
+github_username:  phor3nsic
 
+theme: jekyll-theme-cayman
 markdown: kramdown
 
 author:
