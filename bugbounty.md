@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Home"
+title: "BugBounty"
+permalink: /bugbounty/
 ---
 
 <nav>
@@ -12,8 +13,12 @@ title: "Home"
   </ul>
 </nav>
 
-# Welcome to My Cybersecurity Blog
+# Bugbounty
 
 <img src="/assets/images/profile.jpeg" alt="Profile Picture" style="float: right; border-radius: 50%; width: 200px; height: 200px; margin-left: 20px;">
 
-This is my space to share research and discoveries in the field of cybersecurity.
+Here you can find a collection of my bugbounty posts.
+
+## Last posts
+
+...
