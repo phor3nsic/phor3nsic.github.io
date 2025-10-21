@@ -18,6 +18,7 @@ This is my space to share research and discoveries in the field of cybersecurity
   </ul>
 </nav>
 
+----
 My channels with my notes to read:
 
-[Telegram](https://t.me/+vnJHI9mVTjExNjkx)
+[🗞️ Telegram](https://t.me/+vnJHI9mVTjExNjkx)

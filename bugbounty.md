@@ -22,3 +22,9 @@ Here you can find a collection of my bugbounty posts.
 ## Last posts
 
 ...
+
+
+----
+My channels with my notes to read:
+
+[🗞️ Telegram](https://t.me/+vnJHI9mVTjExNjkx)
