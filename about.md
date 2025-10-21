@@ -41,3 +41,4 @@ Founder of [**DeepLook Labs**](https://deeplooklabs.com), a cybersecurity resear
 My channels with my notes to read:
 
 [🗞️ Telegram](https://t.me/+vnJHI9mVTjExNjkx)
+[🗞️ Discord](https://discord.gg/58eFp42PQm)

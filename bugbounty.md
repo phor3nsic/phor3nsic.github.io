@@ -28,3 +28,4 @@ Here you can find a collection of my bugbounty posts.
 My channels with my notes to read:
 
 [🗞️ Telegram](https://t.me/+vnJHI9mVTjExNjkx)
+[🗞️ Discord](https://discord.gg/58eFp42PQm)
