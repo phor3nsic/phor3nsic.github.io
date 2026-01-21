@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iframe Sandbox Test</title>
+</head>
+<body>
+    <h1>Iframe Sandbox Test Page</h1>
+
+    <iframe id="frame" sandbox="allow-scripts" width="600" height="400">
+        Your browser does not support iframes.
+    </iframe>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const url = params.get('url');
+
+        if (url) {
+            document.getElementById('frame').src = url;
+        }
+    </script>
+</body>
+</html>

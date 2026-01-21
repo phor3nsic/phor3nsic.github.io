@@ -1,23 +1,22 @@
 ---
 layout: default
-title: "Research"
-permalink: /research/
+title: "Posts"
+permalink: /posts/
 ---
 
 <nav>
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/about/">About</a></li>
-    <li><a href="/research/">Research</a></li>
-    <li><a href="/bugbounty/">BugBounty</a></li>
+    <li><a href="/posts/">Posts</a></li>
   </ul>
 </nav>
 
-# Research
+# Posts
 
 <img src="/assets/images/profile.jpeg" alt="Profile Picture" style="float: right; border-radius: 50%; width: 200px; height: 200px; margin-left: 20px;">
 
-Here you can find a collection of my research work in cybersecurity.
+Here you can find a collection of my posts work in cybersecurity.
 
 ## Research Articles
 
@@ -28,6 +27,10 @@ Here you can find a collection of my research work in cybersecurity.
 - [CVE-2020-7954](https://nvd.nist.gov/vuln/detail/CVE-2020-7954)
 - [CVE-2020-7953](https://nvd.nist.gov/vuln/detail/CVE-2020-7953)
 - [CVE-2020-5841](https://nvd.nist.gov/vuln/detail/CVE-2020-5841)
+
+## Writeups
+
+- ...
 
 ----
 My channels with my notes to read:

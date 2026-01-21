@@ -8,7 +8,7 @@ permalink: /about/
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/about/">About</a></li>
-    <li><a href="/research/">Research</a></li>
+    <li><a href="/posts/">Posts</a></li>
   </ul>
 </nav>
 
@@ -36,6 +36,17 @@ With extensive experience in security research and code analysis, I have contrib
 
 Founder of [**DeepLook Labs**](https://deeplooklabs.com), a cybersecurity research company focused on advanced security research and innovative approaches to modern technologies — constantly exploring new perspectives and expanding the boundaries of exploitability and defense.
 
+### Profiles
+
+[Hackerone](https://hackerone.com/ph0r3nsic)
+
+[Bugcrowd](https://bugcrowd.com/h/phor3nsic)
+
+[Intigriti](https://app.intigriti.com/profile/phor3nsic)
+
+### Certifications
+
+[OSWE](https://credentials.offsec.com/1c693535-a186-43ed-a296-edf11c3dfbdb#acc.51fUApQw)
 
 ----
 My channels with my notes to read:
