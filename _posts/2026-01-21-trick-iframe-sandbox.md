@@ -12,7 +12,9 @@ date: 2026-01-21
   </ul>
 </nav>
 
-# Iframe Sandbox Trick: Triggering Authentication Dialogs Without `allow-popups`
+# Iframe Sandbox Trick
+_Triggering Authentication Dialogs Without allow-popups_
+---
 
 Hello everyone.  
 In this post, I’d like to share a simple trick I discovered some time ago regarding an unexpected behavior in sandboxed iframes: it is possible to trigger browser authentication dialogs (modal credential prompts) inside an iframe sandboxed **without** `allow-popups`, as long as `allow-scripts` is present.
