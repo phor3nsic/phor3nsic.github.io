@@ -47,9 +47,9 @@ When the browser receives the `WWW-Authenticate` header, it automatically displa
 This demonstrates that authentication dialogs are not governed by the iframe sandbox popup restrictions, unlike `alert()`, `prompt()`, or `confirm()`.
 
 Related Research
-A similar behavior was previously mentioned in the context of CSS Injection by @EdOverflow, documented in the Bug Bounty Wiki:
+A similar behavior was previously mentioned in the context of CSS Injection by [@EdOverflow](https://x.com/EdOverflow), documented in the Bug Bounty Wiki:
 
-https://github.com/EdOverflow/bugbountywiki/wiki/CSS-injection
+[https://github.com/EdOverflow/bugbountywiki/wiki/CSS-injection](https://github.com/EdOverflow/bugbountywiki/wiki/CSS-injection)
 
 However, applying this technique inside sandboxed iframes reveals a practical way to spawn modal authentication dialogs where UI popups are expected to be blocked.
 
@@ -73,7 +73,7 @@ This indicates that, at the time of writing, authentication dialogs are consider
 ## Proof of Concept
 
 1- Visit:
-https://wallesonmoura.com.br/pocs/trick-iframe-sandbox.html
+[https://wallesonmoura.com.br/pocs/trick-iframe-sandbox.html](https://wallesonmoura.com.br/pocs/trick-iframe-sandbox.html)
 
 2- Provide a URL pointing to a Basic Auth endpoint in the `url` parameter.
 
