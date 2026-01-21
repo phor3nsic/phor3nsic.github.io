@@ -4,6 +4,14 @@ title: "Iframe Sandbox Trick: Triggering Authentication Dialogs Without allow-po
 date: 2026-01-21
 ---
 
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/posts/">Posts</a></li>
+  </ul>
+</nav>
+
 # Iframe Sandbox Trick: Triggering Authentication Dialogs Without `allow-popups`
 
 Hello everyone.  
@@ -48,24 +56,25 @@ Google’s anti-malvertising team has discussed preventing sandboxed frames from
 > Folks in Google's anti-malvertising team would like to be able to prevent sandboxed frames from popping up confusing,  modal messages to users. This includes things like `alert()`, `confirm()`, and `prompt()` (and `print()` (and maybe > authentication dialogs)).
 
 Reference:
-https://chromestatus.com/feature/4747009953103872
+[https://chromestatus.com/feature/4747009953103872](https://chromestatus.com/feature/4747009953103872)
 
 I reported a proof of concept to Google. The response I received was:
 
 > I don't believe there are any bugs, because nobody (implementation + spec) said we should block those messages.
 
 Reference:
-https://issues.chromium.org/issues/40266321
+[https://issues.chromium.org/issues/40266321](https://issues.chromium.org/issues/40266321)
 
 This indicates that, at the time of writing, authentication dialogs are considered out-of-scope for iframe sandbox popup restrictions by both specification and implementation.
 
-Proof of Concept
-Visit:
+## Proof of Concept
+
+1- Visit:
 https://wallesonmoura.com.br/pocs/trick-iframe-sandbox.html
 
-Provide a URL pointing to a Basic Auth endpoint in the `url` parameter.
+2- Provide a URL pointing to a Basic Auth endpoint in the `url` parameter.
 
-Observe the authentication dialog appearing inside the sandboxed iframe.
+3- Observe the authentication dialog appearing inside the sandboxed iframe.
 
 ## Conclusion
 This behavior may be abused to cause user confusion, potentially leak credentials through password manager extensions, or enable phishing-style UI redressing when combined with clickjacking or deceptive framing. Although currently considered “working as intended,” it highlights an interesting gap between iframe sandbox UI restrictions and browser-controlled authentication dialogs.

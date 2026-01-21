@@ -1,8 +1,16 @@
 ---
-layout: post
+layout: default
 title: "Object Injection to SQL Injection"
 date: 2021-05-26
 ---
+
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/posts/">Posts</a></li>
+  </ul>
+</nav>
 
 # Object Injection to SQL Injection
 
