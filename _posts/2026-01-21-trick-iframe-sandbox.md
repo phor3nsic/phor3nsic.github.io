@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Iframe Sandbox Trick: Triggering Authentication Dialogs Without allow-popups"
 date: 2026-01-21
 ---

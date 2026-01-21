@@ -18,6 +18,9 @@ permalink: /posts/
 
 Here you can find a collection of my posts work in cybersecurity.
 
+## Last Posts
+- [Trick Iframe Sandbox](/2026/01/21/trick-iframe-sandbox)
+
 ## Research Articles
 
 - <a href="https://gccybermonks.com/posts/ssrfvision/">SSRF Another vision</a>
@@ -27,10 +30,6 @@ Here you can find a collection of my posts work in cybersecurity.
 - [CVE-2020-7954](https://nvd.nist.gov/vuln/detail/CVE-2020-7954)
 - [CVE-2020-7953](https://nvd.nist.gov/vuln/detail/CVE-2020-7953)
 - [CVE-2020-5841](https://nvd.nist.gov/vuln/detail/CVE-2020-5841)
-
-## Writeups
-
-- ...
 
 ----
 My channels with my notes to read:
