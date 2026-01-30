@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Leaks by firebase remote config"
-date: 2026-01-xx
+date: 2026-02-xx
 ---
 
 <nav>
@@ -11,3 +11,7 @@ date: 2026-01-xx
     <li><a href="/posts/">Posts</a></li>
   </ul>
 </nav>
+
+# Leaks by firebase remote config
+_Developers are saving the private data here..._
+
