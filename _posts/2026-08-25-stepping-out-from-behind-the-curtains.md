@@ -73,7 +73,7 @@ And that was when I started realizing something important:
 
 As a security researcher, I've been writing and publishing things since around 2019.
 
-In 2024, one of my researches, [**"Another Vision for SSRF"**](https://gccybermonks.com/posts/ssrfvision/), ended up among the nominations considered by PortSwigger for their [**Top 10 Web Hacking Techniques of 2024**](https://portswigger.net/research/top-10-web-hacking-techniques-of-2024-nominations-open).
+In 2024, one of my researches, [**"Another Vision for SSRF"**](https://offensive.vultuscyber.com/ssrfvision.html)[^1], ended up among the nominations considered by PortSwigger for their [**Top 10 Web Hacking Techniques of 2024**](https://portswigger.net/research/top-10-web-hacking-techniques-of-2024-nominations-open).
 
 That was something really meaningful to me.
 
@@ -212,3 +212,5 @@ My thanks to **James Kettle ([@albinowax](https://x.com/@albinowax))** and the e
 And also to every security researcher who shares knowledge and, sometimes without even realizing it, inspires someone else to keep building.
 
 **Peace!**
+
+[^1]: The original research link was replaced by the company responsible for publishing the research at the time.
