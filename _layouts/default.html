@@ -21,6 +21,12 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Pixelify+Sans:wght@400..700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <script>document.documentElement.classList.add('js');</script>
+    <script>
+      window.PHOR3NSIC_SUPABASE = {
+        url: "{{ site.supabase_url }}",
+        key: "{{ site.supabase_publishable_key }}"
+      };
+    </script>
   </head>
   <body class="{% if page.url == '/' %}is-home{% else %}is-inner{% endif %}">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -50,7 +56,11 @@
     <main class="site-main" id="main-content">
       {% if page.collection == "posts" %}<article class="page-shell">{% endif %}
         {{ content }}
-      {% if page.collection == "posts" %}</article>{% endif %}
+      {% if page.collection == "posts" %}
+        {% include like.html %}
+        {% include share.html %}
+      </article>
+      {% endif %}
     </main>
 
     <footer class="site-footer">

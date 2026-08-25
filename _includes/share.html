@@ -1,0 +1,29 @@
+{% assign share_url = page.url | absolute_url | uri_escape %}
+{% assign share_title = page.title | uri_escape %}
+
+<aside class="share-panel" aria-labelledby="share-panel-title">
+  <div class="share-panel-copy">
+    <p class="section-index">[ SHARE / SIGNAL ]</p>
+    <h2 id="share-panel-title">Pass it on.</h2>
+    <p>If this was worth your time, send it to someone who might find value in it too.</p>
+  </div>
+
+  <div class="share-panel-actions">
+    <a class="share-button" href="https://x.com/intent/post?text={{ share_title }}&amp;url={{ share_url }}" target="_blank" rel="noopener noreferrer" aria-label="Share {{ page.title }} on X">
+      <span aria-hidden="true">X</span> Share on X
+    </a>
+    <a class="share-button" href="https://www.reddit.com/submit?url={{ share_url }}&amp;title={{ share_title }}" target="_blank" rel="noopener noreferrer" aria-label="Share {{ page.title }} on Reddit">
+      <span aria-hidden="true">R/</span> Reddit
+    </a>
+    <a class="share-button" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener noreferrer" aria-label="Share {{ page.title }} on LinkedIn">
+      <span aria-hidden="true">in</span> LinkedIn
+    </a>
+    <a class="share-button" href="https://t.me/share/url?url={{ share_url }}&amp;text={{ share_title }}" target="_blank" rel="noopener noreferrer" aria-label="Share {{ page.title }} on Telegram">
+      <span aria-hidden="true">TG</span> Telegram
+    </a>
+    <button class="share-button share-copy" type="button" data-share-copy data-share-url="{{ page.url | absolute_url }}">
+      <span aria-hidden="true">↗</span><b data-share-copy-label>Copy link</b>
+    </button>
+    <p class="share-status" data-share-status aria-live="polite"></p>
+  </div>
+</aside>

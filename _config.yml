@@ -10,6 +10,9 @@ github_username:  phor3nsic
 markdown: kramdown
 lang: en
 
+supabase_url: "https://zynrjrbosnjsrchrvqjl.supabase.co"
+supabase_publishable_key: "sb_publishable_1dpfSDSXmzpFw3sm0JieqA_5YWPP7sS"
+
 author:
   name: "Walleson Rodrigues"
   email: "phorensic@pm.me"

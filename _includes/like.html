@@ -1,0 +1,13 @@
+<section class="like-panel" data-like-post="{{ page.url }}" aria-labelledby="like-panel-title">
+  <div class="like-panel-copy">
+    <p class="section-index">[ REACTION / SIGNAL ]</p>
+    <h2 id="like-panel-title">Found a signal?</h2>
+    <p>Leave an anonymous like if this post was useful or made you think.</p>
+  </div>
+  <button class="like-button" type="button" data-like-button aria-describedby="like-status">
+    <span class="like-mark" aria-hidden="true">♥</span>
+    <span data-like-label>Like this post</span>
+    <span class="like-count" data-like-count aria-label="Like count">—</span>
+  </button>
+  <p class="like-status" id="like-status" data-like-status aria-live="polite">Loading likes…</p>
+</section>

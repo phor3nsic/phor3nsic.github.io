@@ -907,6 +907,195 @@ textarea {
   margin-top: 40px;
 }
 
+.like-panel {
+  display: grid;
+  margin-top: 88px;
+  padding: 38px 0 0;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: clamp(34px, 7vw, 80px);
+  border-top: 1px solid var(--line);
+}
+
+.like-panel-copy .section-index {
+  margin-bottom: 14px;
+}
+
+.like-panel-copy h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.like-panel-copy > p:last-child {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.like-button {
+  display: inline-flex;
+  min-height: 64px;
+  padding: 0 20px;
+  gap: 14px;
+  align-items: center;
+  align-self: center;
+  justify-content: flex-start;
+  color: var(--paper);
+  border: 1px solid var(--line-strong);
+  background: var(--panel);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.like-button:not(:disabled):hover,
+.like-button:not(:disabled):focus-visible {
+  border-color: var(--acid);
+  background: rgba(54, 191, 177, 0.08);
+  transform: translateY(-3px);
+}
+
+.like-button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.like-mark {
+  color: var(--acid);
+  font-family: var(--sans);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.like-button.is-liked {
+  color: var(--ink);
+  border-color: var(--acid);
+  background: var(--acid);
+}
+
+.like-button.is-liked .like-mark {
+  color: var(--ink);
+}
+
+.like-count {
+  min-width: 2ch;
+  margin-left: auto;
+  color: var(--acid);
+  font-family: var(--pixel);
+  font-size: 1.25rem;
+  text-align: right;
+}
+
+.like-button.is-liked .like-count {
+  color: var(--ink);
+}
+
+.like-status {
+  grid-column: 2;
+  margin: -26px 0 0;
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+}
+
+.share-panel {
+  display: grid;
+  margin-top: 88px;
+  padding-top: 44px;
+  grid-template-columns: 0.72fr 1.28fr;
+  gap: clamp(34px, 7vw, 80px);
+  border-top: 1px solid var(--line);
+}
+
+.share-panel-copy .section-index {
+  margin-bottom: 14px;
+}
+
+.share-panel-copy h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.share-panel-copy > p:last-child {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.share-panel-actions {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  align-content: start;
+}
+
+.share-button {
+  display: flex;
+  min-height: 52px;
+  padding: 0 15px;
+  gap: 12px;
+  align-items: center;
+  color: var(--muted);
+  border: 1px solid var(--line);
+  background: rgba(17, 17, 24, 0.55);
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-align: left;
+  text-transform: uppercase;
+  transition: color 160ms ease, border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.share-button > span {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  place-items: center;
+  color: var(--ink);
+  background: var(--acid);
+  font-family: var(--pixel);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.share-button b {
+  font: inherit;
+}
+
+.share-button:hover,
+.share-button:focus-visible {
+  color: var(--paper);
+  border-color: var(--acid);
+  background: rgba(54, 191, 177, 0.08);
+  transform: translateY(-2px);
+}
+
+.share-copy {
+  width: 100%;
+  cursor: pointer;
+}
+
+.share-status {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 8px 0 0;
+  color: var(--acid);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+}
+
 .page-shell > p,
 .page-shell > ul,
 .page-shell > ol,
@@ -1064,8 +1253,14 @@ pre code {
   }
 
   .section-head,
-  .lab-inner {
+  .lab-inner,
+  .like-panel {
     grid-template-columns: 1fr;
+  }
+
+  .like-status {
+    grid-column: 1;
+    margin-top: -20px;
   }
 
   .section-head > p {
@@ -1240,6 +1435,20 @@ pre code {
   }
 
   .archive-note {
+    grid-template-columns: 1fr;
+  }
+
+  .share-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .like-status {
+    margin-top: -18px;
+  }
+}
+
+@media (max-width: 460px) {
+  .share-panel-actions {
     grid-template-columns: 1fr;
   }
 }
