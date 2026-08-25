@@ -108,7 +108,8 @@ $$;
 grant execute on function public.toggle_post_like(text, text, text) to anon, authenticated;
 
 -- Dashboard-friendly aggregate: one row per post with its title and total likes.
-create or replace view public.post_like_summary as
+drop view if exists public.post_like_summary;
+create view public.post_like_summary as
 select post_slug,
        max(post_title) as post_title,
        count(*)::bigint as like_count,
