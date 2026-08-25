@@ -65,6 +65,7 @@
     const likeStatus = likePanel.querySelector('[data-like-status]');
     const config = window.PHOR3NSIC_SUPABASE || {};
     const postSlug = likePanel.dataset.likePost;
+    const postTitle = likePanel.dataset.likeTitle || document.title;
 
     const getVisitorId = () => {
       const storageKey = 'phor3nsic-anonymous-visitor';
@@ -131,7 +132,8 @@
       try {
         const result = await supabaseRpc('toggle_post_like', {
           p_post_slug: postSlug,
-          p_visitor_id: visitorId
+          p_visitor_id: visitorId,
+          p_post_title: postTitle
         });
         const state = Array.isArray(result) ? result[0] : result;
         renderLikes(Number(state.like_count) || 0, Boolean(state.liked));
