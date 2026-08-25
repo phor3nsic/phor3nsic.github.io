@@ -2,32 +2,38 @@
 layout: default
 title: "About"
 permalink: /about/
-description: "Meet Walleson Rodrigues, DeepLookLabs founder, security researcher, and bug hunter."
+description: "Meet Walleson Rodrigues — ph0r3nsic, hacker, husband, father of three, entrepreneur, and DeepLookLabs founder."
 ---
 
 <div class="page-shell">
   <header class="page-hero" data-reveal>
     <p class="eyebrow">[ ID / WALLESSON RODRIGUES ]</p>
     <h1>Curiosity as a method. Principles as a foundation.</h1>
-    <p>I am a security researcher, bug hunter, and tool builder. Above all, I am someone driven by faith, family, and the desire to understand how things truly work.</p>
+    <p>I’m Walleson Rodrigues, known online as ph0r3nsic — a hacker, husband, father of three, and entrepreneur. Faith and family are the foundation; curiosity is how I move through technology and the world.</p>
   </header>
 
   <div class="about-grid">
     <figure class="about-photo" data-reveal>
       <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Walleson Rodrigues" width="1122" height="1402">
-      <figcaption>Phor3nsic // Security Researcher</figcaption>
+      <figcaption>Ph0r3nsic // Hacker · Builder · Founder</figcaption>
     </figure>
 
     <div class="about-copy">
       <section data-reveal>
+        <h2>The person behind the handle</h2>
+        <p>Ph0r3nsic is the name attached to my work, but it is only one part of who I am. I am a husband and a father raising three children. Family gives perspective to ambition, faith gives direction to decisions, and both shape the way I define meaningful work.</p>
+        <p>I am also an entrepreneur. For me, entrepreneurship means turning ideas into something useful and lasting — bringing together research, technology, responsibility, and the courage to build.</p>
+      </section>
+
+      <section data-reveal>
         <h2>My path through technology</h2>
-        <p>I enjoy taking systems apart mentally, following small clues, and understanding the reasoning hidden behind every mechanism. That curiosity turned technology into a craft and research into a way of seeing the world.</p>
+        <p>I have always been a hacker in the original sense of the word: curious enough to take systems apart mentally, follow small clues, and understand the reasoning hidden behind every mechanism. That curiosity turned technology into a craft and research into a way of seeing the world.</p>
         <p>Throughout this journey, I have identified and responsibly disclosed vulnerabilities affecting organizations such as Comcast, Xfinity, Sophos, Stripe, PlayStation, Epic Games, and Vimeo, among others.</p>
       </section>
 
       <section data-reveal>
         <h2>DeepLookLabs</h2>
-        <p>I am the founder of <a href="https://deeplooklabs.com" target="_blank" rel="noopener">DeepLookLabs ↗</a>, a company dedicated to advanced security research and new ways of understanding modern technologies — always looking beyond the first layer.</p>
+        <p>I founded <a href="https://deeplooklabs.com" target="_blank" rel="noopener">DeepLookLabs ↗</a> at the intersection of hacking and entrepreneurship: a company dedicated to advanced security research and new ways of understanding modern technologies — always looking beyond the first layer.</p>
         <a class="button button-primary" href="https://deeplooklabs.com" target="_blank" rel="noopener">Discover the lab <span aria-hidden="true">↗</span></a>
       </section>
 

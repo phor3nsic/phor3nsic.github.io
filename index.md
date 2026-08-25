@@ -1,17 +1,18 @@
 ---
 layout: default
 title: "Home"
-description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, and bug hunter. Writing about faith, family, technology, and the journey."
+description: "Walleson Rodrigues, known as ph0r3nsic — hacker, husband, father of three, entrepreneur, and founder of DeepLookLabs."
 ---
 
 <section class="hero">
   <div class="hero-copy" data-reveal>
     <p class="eyebrow">Walleson Rodrigues · personal log</p>
-    <h1>Where others see noise, I find <span>signals</span></h1>
-    <p class="hero-intro">Security researcher, bug hunter, and founder of <strong>DeepLookLabs</strong>. This is my personal space to share what I find at the intersection of faith, family, technology, and the journey.</p>
+    <h1>I’m <span>ph0r3nsic</span></h1>
+    <p class="hero-intro">I’m Walleson Rodrigues — a hacker, husband, father of three, and entrepreneur. I founded <strong>DeepLookLabs</strong>, where we conduct cybersecurity work and research. This is where I write about faith, family, tricks, and the art of finding what others don’t see.</p>
     <div class="identity-line" aria-label="Roles">
+      <span>Hacker</span>
+      <span>Husband · Father of 3</span>
       <span>Founder @ DeepLookLabs</span>
-      <span>Security Researcher</span>
     </div>
     <div class="hero-actions">
       <a class="button button-primary" href="https://deeplooklabs.com" target="_blank" rel="noopener">Discover DeepLookLabs <span aria-hidden="true">↗</span></a>
@@ -30,8 +31,8 @@ description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, 
 
 <div class="ticker" aria-hidden="true">
   <div class="ticker-track">
-    <span>Faith ✦ Family ✦ Technology ✦ Bug Hunting ✦ Research ✦ Purpose ✦</span>
-    <span>Faith ✦ Family ✦ Technology ✦ Bug Hunting ✦ Research ✦ Purpose ✦</span>
+    <span>Hacker ✦ Husband ✦ Father of Three ✦ Entrepreneur ✦ Faith ✦ Research ✦</span>
+    <span>Hacker ✦ Husband ✦ Father of Three ✦ Entrepreneur ✦ Faith ✦ Research ✦</span>
   </div>
 </div>
 
@@ -41,7 +42,7 @@ description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, 
       <p class="section-index">[ 01 / TERRITORIES ]</p>
       <h2>Beyond<br>cyber.</h2>
     </div>
-    <p>Technology is part of the story, not the whole story. Here I document technical and human lessons — the ideas, convictions, and people that give meaning to the path.</p>
+    <p>There is more behind the handle than security research. This is a record of the craft, convictions, family, and people that shape who I am and why I build.</p>
   </header>
 
   <div class="topic-grid">
@@ -53,12 +54,12 @@ description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, 
     <article class="topic-card" data-reveal>
       <span class="topic-number">01_B</span>
       <h3>Family &amp; legacy</h3>
-      <p>On presence, building, and everything that remains when the computer is finally closed.</p>
+      <p>Lessons from marriage, raising three children, being present, and building a legacy beyond the screen.</p>
     </article>
     <article class="topic-card" data-reveal>
       <span class="topic-number">01_C</span>
       <h3>Technology &amp; craft</h3>
-      <p>Tools, automation, code, and the choices behind work shaped by curiosity and intention.</p>
+      <p>Tools, automation, code, and entrepreneurship — turning curiosity into work built with intention.</p>
     </article>
     <article class="topic-card" data-reveal>
       <span class="topic-number">01_D</span>
@@ -76,7 +77,7 @@ description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, 
     <div class="lab-copy" data-reveal>
       <p class="eyebrow">Advanced research division</p>
       <h2>DeepLook<span>Labs.</span></h2>
-      <p>I founded DeepLookLabs to take security research beyond the surface. Deep analysis, advanced research, and high-cyber work live in a dedicated space of their own.</p>
+      <p>I founded DeepLookLabs as an entrepreneur and hacker who wanted to take security research beyond the surface. Deep analysis, advanced research, and high-cyber work live in a dedicated space of their own.</p>
       <a class="button button-primary" href="https://deeplooklabs.com" target="_blank" rel="noopener">Visit deeplooklabs.com <span aria-hidden="true">↗</span></a>
     </div>
   </div>
@@ -88,7 +89,7 @@ description: "Walleson Rodrigues — DeepLookLabs founder, security researcher, 
       <p class="section-index">[ 02 / ARCHIVE ]</p>
       <h2>Latest<br>writing.</h2>
     </div>
-    <p>Open notes on vulnerabilities, research observations, and the chapters that shape a journey.</p>
+    <p>Notes on vulnerabilities, faith, family, entrepreneurship, and the chapters behind a life spent questioning systems.</p>
   </header>
 
   <div class="post-list" data-reveal>
