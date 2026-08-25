@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Ph0r3nsic</title>
+  <path fill="#07070a" d="M8 2h44l10 10v44l-6 6H12L2 52V12z"/>
+  <path fill="#5b4b9c" d="M18 16h9v36h-9zm9 0h18v9H27zm15 9h9v17h-9zm-15 13h15v9H27z" transform="translate(3 3)"/>
+  <path fill="#36bfb1" d="M16 13h9v36h-9zm9 0h18v9H25zm15 9h9v17h-9zM25 35h15v9H25z"/>
+  <path fill="#9989d6" d="M2 12h4V6h6V2h12v4H12v4h-4v12H2zm60 40h-4v6h-6v4H40v-4h12v-4h4V42h6z"/>
+</svg>
