@@ -5,14 +5,6 @@ subtitle: "Triggering Authentication Dialogs Without allow-popups"
 date: 2026-01-21
 ---
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/posts/">Posts</a></li>
-  </ul>
-</nav>
-
 # Iframe Sandbox Trick
 _Triggering Authentication Dialogs Without allow-popups_
 

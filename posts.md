@@ -1,38 +1,40 @@
 ---
 layout: default
-title: "Posts"
+title: "Writing"
 permalink: /posts/
+description: "Walleson Rodrigues' writing archive on technology, bug hunting, faith, family, and research."
 ---
 
-<nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about/">About</a></li>
-    <li><a href="/posts/">Posts</a></li>
-  </ul>
-</nav>
+<div class="page-shell">
+  <header class="page-hero" data-reveal>
+    <p class="eyebrow">[ NOTES / FIELD LOG ]</p>
+    <h1>Writing &amp;<br>discoveries.</h1>
+    <p>An evolving archive: stories from the bug hunter journey, techniques, technology, and reflections on faith, family, and purpose.</p>
+  </header>
 
-# Posts
+  <div class="archive-head" data-reveal>
+    <h2>Archive</h2>
+    <span>{{ site.posts | size }} published entries</span>
+  </div>
 
-<img src="/assets/images/profile.jpeg" alt="Profile Picture" style="float: right; border-radius: 50%; width: 200px; height: 200px; margin-left: 20px;">
+  <div class="post-list" data-reveal>
+    {% for post in site.posts %}
+      <a class="post-row" href="{{ post.url | relative_url }}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d.%m.%Y" }}</time>
+        <div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.subtitle | default: post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+        </div>
+        <span class="post-arrow" aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+  </div>
 
-Here you can find a collection of my posts work in cybersecurity.
-
-## Last Posts
-- [Trick Iframe Sandbox](/2026/01/21/trick-iframe-sandbox)
-
-## Research Articles
-
-- <a href="https://gccybermonks.com/posts/ssrfvision/">SSRF Another vision</a>
-- <a href="https://gccybermonks.com/posts/cve-2021-40822/">CVE-2021-40822</a>
-- [Object Injection to Sql Injection](https://gccybermonks.com/posts/obji2sqli/)
-- [CVE-2020-8636](https://nvd.nist.gov/vuln/detail/CVE-2020-8636)
-- [CVE-2020-7954](https://nvd.nist.gov/vuln/detail/CVE-2020-7954)
-- [CVE-2020-7953](https://nvd.nist.gov/vuln/detail/CVE-2020-7953)
-- [CVE-2020-5841](https://nvd.nist.gov/vuln/detail/CVE-2020-5841)
-
-----
-My channels with my notes to read:
-
-[🗞️ Telegram](https://t.me/+vnJHI9mVTjExNjkx)
-[🗞️ Discord](https://discord.gg/58eFp42PQm)
+  <aside class="archive-note" data-reveal>
+    <div>
+      <h2>Looking for advanced research?</h2>
+      <p>High-cyber analysis and deep research live at DeepLookLabs.</p>
+    </div>
+    <a class="button button-primary" href="https://deeplooklabs.com" target="_blank" rel="noopener">Enter the lab <span aria-hidden="true">↗</span></a>
+  </aside>
+</div>

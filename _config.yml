@@ -1,18 +1,15 @@
-title: "Phor3nsic Security Research"
+title: "Phor3nsic"
 description: >-
-  Compilation of my cybersecurity research and findings.
+  Walleson Rodrigues — faith, family, technology, and the bug hunter journey.
 baseurl: ""
-url: https://phor3nsic.github.io
-domain: phor3nsic.github.io
+url: https://wallesonmoura.com.br
+domain: wallesonmoura.com.br
 twitter_username: ph0r3nisc
 github_username:  phor3nsic
 
-theme: jekyll-theme-cayman
 markdown: kramdown
+lang: en
 
 author:
   name: "Walleson Rodrigues"
   email: "phorensic@pm.me"
-
-plugins:
-  - jekyll-feed
