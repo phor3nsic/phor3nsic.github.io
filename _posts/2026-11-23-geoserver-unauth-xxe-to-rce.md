@@ -359,7 +359,14 @@ In the official Docker image (`docker.osgeo.org/geoserver:2.28.2`), Tomcat runs 
 
 ## What I Confirmed
 
-The full chain was confirmed end-to-end against **GeoServer 2.28.2** (official Docker image, default data directory), going from zero credentials to `uid=0(root)` with only HTTP requests:
+The full chain was confirmed end-to-end against **GeoServer 2.28.2** (official Docker image, default data directory), going from zero credentials to `uid=0(root)` with only HTTP requests.
+
+<video controls autoplay muted loop playsinline preload="metadata" style="width:100%;height:auto;border-radius:6px;" aria-label="PoC: GeoServer 2.28.2 unauthenticated XXE to RCE as root">
+  <source src="/assets/videos/geoserver-xxe-to-rce-poc.mp4" type="video/mp4">
+  Your browser does not support the video tag. <a href="/assets/videos/geoserver-xxe-to-rce-poc.mp4">Download the PoC video</a>.
+</video>
+
+Exploit output:
 
 ```
 [1] reading /opt/geoserver_data/security/usergroup/default/users.xml via XXE schemaLocation->external DTD (unauth)...
