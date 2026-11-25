@@ -431,9 +431,14 @@ Defense in depth, which would have broken the chain at other points:
 - [CVE-2025-53607](https://www.cve.org/CVERecord?id=CVE-2025-53607)
 - [GEOT-7883](https://osgeo-org.atlassian.net/browse/GEOT-7883)
 - [GHSA-rg89-jmrw-x26f](https://github.com/geoserver/geoserver/security/advisories/GHSA-rg89-jmrw-x26f)
+- [phor3nsic/CVE-2025-53607 — Exploit](https://github.com/phor3nsic/CVE-2025-53607)
 
 ## Credits
 
 This issue was independently reported by **ColdFusionX**, **chudyPB** and me. Thanks to **Jody Garnett** for coordinating the advisory, **Pierre Mauduit** for the remediation, and **axl8713** for the analysis — and to the whole GeoServer and GeoTools teams for handling it.
+
+## Exploit
+
+The exploit code is available at: [github.com/phor3nsic/CVE-2025-53607](https://github.com/phor3nsic/CVE-2025-53607)
 
 **Peace!**
