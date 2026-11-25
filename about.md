@@ -2,19 +2,19 @@
 layout: default
 title: "About"
 permalink: /about/
-description: "Meet Walleson Rodrigues — ph0r3nsic, hacker, husband, father of three, entrepreneur, and DeepLookLabs founder."
+description: "Meet Walleson Moura (@ph0r3nsic) — hacker, husband, father of three, entrepreneur, and DeepLookLabs founder."
 ---
 
 <div class="page-shell">
   <header class="page-hero" data-reveal>
-    <p class="eyebrow">[ ID / WALLESSON RODRIGUES ]</p>
+    <p class="eyebrow">[ ID / WALLESON MOURA · @PH0R3NSIC ]</p>
     <h1>Curiosity as a method. Principles as a foundation.</h1>
-    <p>I’m Walleson Rodrigues, known online as ph0r3nsic — a hacker, husband, father of three, and entrepreneur. Faith and family are the foundation; curiosity is how I move through technology and the world.</p>
+    <p>I’m Walleson Moura, known online as <a class="x-handle" href="https://x.com/ph0r3nsic" target="_blank" rel="noopener">@ph0r3nsic</a> — a hacker, husband, father of three, and entrepreneur. Faith and family are the foundation; curiosity is how I move through technology and the world.</p>
   </header>
 
   <div class="about-grid">
     <figure class="about-photo" data-reveal>
-      <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Walleson Rodrigues" width="1122" height="1402">
+      <img src="{{ '/assets/images/profile.jpeg' | relative_url }}" alt="Walleson Moura (@ph0r3nsic)" width="1122" height="1402">
       <figcaption>Ph0r3nsic // Hacker · Builder · Founder</figcaption>
     </figure>
 

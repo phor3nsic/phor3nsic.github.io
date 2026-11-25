@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Home"
-description: "Walleson Rodrigues, known as ph0r3nsic — hacker, husband, father of three, entrepreneur, and founder of DeepLookLabs."
+description: "Walleson Moura (@ph0r3nsic) — hacker, husband, father of three, entrepreneur, and founder of DeepLookLabs."
 ---
 
 <section class="hero">
   <div class="hero-copy" data-reveal>
-    <p class="eyebrow">Walleson Rodrigues · personal log</p>
+    <p class="eyebrow">Walleson Moura (@ph0r3nsic) · personal log</p>
     <h1>I’m <span>ph0r3nsic</span></h1>
-    <p class="hero-intro">I’m Walleson Rodrigues — a hacker, husband, father of three, and entrepreneur. I founded <strong>DeepLookLabs</strong>, where we conduct cybersecurity work and research. This is where I write about faith, family, tricks, and the art of finding what others don’t see.</p>
+    <p class="hero-intro">I’m Walleson Moura (<a class="x-handle" href="https://x.com/ph0r3nsic" target="_blank" rel="noopener">@ph0r3nsic</a>) — a hacker, husband, father of three, and entrepreneur. I founded <strong>DeepLookLabs</strong>, where we conduct cybersecurity work and research. This is where I write about faith, family, tricks, and the art of finding what others don’t see.</p>
     <div class="identity-line" aria-label="Roles">
       <span>Hacker</span>
       <span>Husband · Father of 3</span>
@@ -23,7 +23,7 @@ description: "Walleson Rodrigues, known as ph0r3nsic — hacker, husband, father
   <div class="hero-visual" data-reveal>
     <span class="coordinate">25.2637° S // 57.5759° W</span>
     <div class="portrait-frame">
-      <img src="{{ '/assets/images/pixel-profile.webp' | relative_url }}" alt="Pixel-art portrait of Walleson Rodrigues" width="900" height="900">
+      <img src="{{ '/assets/images/pixel-profile.webp' | relative_url }}" alt="Pixel-art portrait of Walleson Moura (@ph0r3nsic)" width="900" height="900">
     </div>
     <div class="portrait-meta">Founder<br>DeepLookLabs</div>
   </div>
@@ -114,6 +114,6 @@ description: "Walleson Rodrigues, known as ph0r3nsic — hacker, husband, father
 <section class="manifesto" data-reveal>
   <blockquote>
     “Looking deep is a technique.<br>Keeping at it is a principle.”
-    <cite>Walleson Rodrigues // Phor3nsic</cite>
+    <cite>Walleson Moura (<a class="x-handle" href="https://x.com/ph0r3nsic" target="_blank" rel="noopener">@ph0r3nsic</a>)</cite>
   </blockquote>
 </section>

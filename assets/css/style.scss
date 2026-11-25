@@ -745,6 +745,18 @@ textarea {
   white-space: nowrap;
 }
 
+.x-handle {
+  color: var(--acid);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+.x-handle:hover,
+.x-handle:focus-visible {
+  text-decoration-thickness: 2px;
+}
+
 .page-shell {
   width: min(calc(100% - 48px), 980px);
   margin: 0 auto;

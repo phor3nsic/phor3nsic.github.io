@@ -2,7 +2,7 @@
 layout: default
 title: "Writing"
 permalink: /posts/
-description: "Walleson Rodrigues' writing archive on technology, bug hunting, faith, family, and research."
+description: "Walleson Moura's (@ph0r3nsic) writing archive on technology, bug hunting, faith, family, and research."
 ---
 
 <div class="page-shell">
